@@ -7,7 +7,7 @@ logger:
 webServer:
   mode: "release"
   listenIP: "0.0.0.0"
-  listenPort: 8080
+  listenPort: 8082
   jwt:
     secretKey: "polarismesh@2021"
     expired: 1800

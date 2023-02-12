@@ -7,7 +7,7 @@ module.exports = Object.assign({}, base, {
     host: '127.0.0.1',
     proxy: {
       '*': {
-        target: 'http://14.116.241.63:8080/',
+        target: 'http://127.0.0.1:8082/',
         source: false,
         changeOrigin: true,
       },
